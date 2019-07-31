@@ -2341,8 +2341,6 @@ input, select, textarea {
 }
 
 .gallery a{
-	/* display: flex; */
-	/* flex-direction: row; */
 	color: #39454b;
 	margin: 5px;
 }
