@@ -1168,6 +1168,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
+			font-family: "Font Awesome 5 Free";
 		}
 
 		ul.icons a {
