@@ -16,7 +16,9 @@
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
 				target = $this.attr('target');
-
+			if (href === "https://github.com/kavya-kumar94/Dotify") {
+				debugger;
+			};
 			b.push(
 				'<a ' +
 					'class="link depth-' + indent + '"' +

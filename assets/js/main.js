@@ -79,8 +79,7 @@
 	// Gallery.
 		$window.on('load', function() {
 
-			var $gallery = $('.gallery');
-
+			var $gallery = $('.pic');
 			$gallery.poptrox({
 				baseZIndex: 10001,
 				useBodyOverflow: false,
