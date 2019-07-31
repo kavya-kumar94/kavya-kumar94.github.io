@@ -614,7 +614,8 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	/* p,  */
+	ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
 
@@ -1186,8 +1187,8 @@ input, select, textarea {
 
 		header p {
 			display: block;
-			margin: 1em 0 0 0;
-			padding: 0 0 0.5em 0;
+			/* margin: 1em 0 0 0;
+			padding: 0 0 0.5em 0; */
 		}
 
 	footer {
@@ -1960,7 +1961,7 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 4em;
 				line-height: 1em;
 			}
 
