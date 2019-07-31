@@ -1456,6 +1456,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
+				margin: auto;
 			}
 
 			.gallery article:nth-last-child(2n) {
@@ -1498,6 +1499,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.2s;
 				-ms-transition-delay: 0.2s;
 				transition-delay: 0.2s;
+				margin: auto;
 			}
 
 			.gallery article:nth-last-child(5n) {
@@ -1512,6 +1514,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
+				margin: auto;
 			}
 
 			.gallery article:nth-last-child(6n) {
@@ -1972,6 +1975,8 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
+				position: absolute;
+				bottom: 0;
 			}
 
 			.main.style1.inactive > .content {
@@ -2244,7 +2249,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../css/images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2320,4 +2325,8 @@ input, select, textarea {
 	width: 50px;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.top-links a {
+	color: black;
 }
