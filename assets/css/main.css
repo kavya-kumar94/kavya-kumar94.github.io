@@ -2340,6 +2340,7 @@ input, select, textarea {
 
 .contact-links a {
 	color: #39454b;
+	font-family: "Font Awesome 5 Free";
 }
 
 .gallery a{
