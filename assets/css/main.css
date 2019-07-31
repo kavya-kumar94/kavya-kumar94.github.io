@@ -37,6 +37,7 @@ ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
@@ -1168,7 +1169,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			font-family: "Font Awesome 5 Free";
+			font-family: "Source Sans Pro", "sans-serif";
 		}
 
 		ul.icons a {
@@ -1875,14 +1876,33 @@ input, select, textarea {
 				}
 
 					#header nav ul li a {
-						display: block;
+						display: inline-block;
 						color: inherit;
 						text-decoration: none;
-						height: 3em;
+						height: 2.3em;
 						line-height: 3em;
-						padding: 0 0.5em 0 0.5em;
+						margin: 0 0.5em 0 0.5em;
+						border-bottom: 2px solid transparent;
+						transition: all 150ms ease-in-out;
+						/* padding: 0 0.5em 0 0.5em; */
 						outline: 0;
 					}
+
+					#header nav ul li a:hover {
+						color: #39454b;
+						border-bottom: 2px solid #39454b;
+						/* font-weight: 600; */
+						font-family: "Source Sans Pro", "sans-serif";
+					}
+
+					/* #header nav ul li a::after {
+						display: block;
+						content: attr(title);
+						font-weight: bold;
+						height: 0;
+						overflow: hidden;
+						visibility: hidden;
+					} */
 
 		@media screen and (max-width: 736px) {
 
@@ -2340,7 +2360,7 @@ input, select, textarea {
 
 .contact-links a {
 	color: #39454b;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Source Sans Pro", "sans-serif";
 }
 
 .gallery a{
