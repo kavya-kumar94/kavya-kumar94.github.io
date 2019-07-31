@@ -2328,5 +2328,16 @@ input, select, textarea {
 }
 
 .top-links a {
-	color: black;
+	color: #39454b;
 }
+
+.contact-links {
+	list-style: none;
+	padding: 5px;
+}
+
+.contact-links a {
+	color: #39454b;
+}
+
+
