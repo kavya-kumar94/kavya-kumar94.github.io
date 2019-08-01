@@ -2367,3 +2367,38 @@ input, select, textarea {
 	color: #39454b;
 	margin: 5px;
 }
+
+.devicon-git-plain-wordmark {
+  font-size: 4rem;
+}
+.devicon-javascript-plain {
+  font-size: 3rem;
+}
+.devicon-ruby-plain-wordmark {
+  font-size: 4rem;
+}
+.devicon-rails-plain-wordmark {
+  font-size: 3rem;
+}
+.devicon-react-original-wordmark {
+  font-size: 3rem;
+}
+.devicon-html5-plain-wordmark {
+  font-size: 3rem;
+}
+.devicon-css3-plain-wordmark {
+  font-size: 3rem;
+}
+.devicon-postgresql-plain-wordmark {
+  font-size: 4rem;
+}
+.devicon-amazonwebservices-plain-wordmark {
+  font-size: 4rem;
+}
+.devicon-nodejs-plain {
+  font-size: 3rem;
+}
+
+#work i {
+	margin: 9px;
+}
