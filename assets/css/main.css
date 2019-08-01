@@ -2402,3 +2402,21 @@ input, select, textarea {
 #work i {
 	margin: 9px;
 }
+
+.boutme {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.boutme img {
+	border-radius: 50%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 4px;
+}
+
+.email1 {
+	font-size: 22px;
+}
