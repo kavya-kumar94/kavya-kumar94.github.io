@@ -1931,6 +1931,30 @@ input, select, textarea {
 					display: none;
 				}
 
+				#header li {
+					/* display: none; */
+					position: relative;
+					top: 0;
+					right: 0.5em;
+					height: 2.5em;
+					line-height: 2.5em;
+				}
+
+					#linked {
+						position: fixed;
+						top: 0;
+						right: 0;
+						height: 2.5em;
+						line-height: 2.5em;
+						margin-right: 5px;
+					}
+					#git {
+						position: fixed;
+						top: 0;
+						right: 1.45em;
+						height: 2.5em;
+						line-height: 2.5em;
+					}
 		}
 
 	body {
