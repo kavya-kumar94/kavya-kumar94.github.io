@@ -2422,7 +2422,7 @@ input, select, textarea {
 }
 .boutme img {
 	border-radius: 50%;
-	position: fixed;
+	position: relative;
 	top: 0;
 	right: 0;
 	margin: 4px;
