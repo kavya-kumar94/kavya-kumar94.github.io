@@ -2474,7 +2474,8 @@ input, select, textarea {
 #resume:hover {
 	color: orange;
 	font-weight: bolder;
-    transform: scale(1.1);
+	transform: scale(1.1);
+	font-size: 18px;
 }
 
 #resume {
