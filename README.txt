@@ -1,1 +1,1 @@
-[Kavya Kumar's Portfolio!](https://kavyakumar.com)
+https://kavyakumar.com
