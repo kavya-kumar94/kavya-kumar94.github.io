@@ -2474,6 +2474,11 @@ input, select, textarea {
 #resume:hover {
 	color: orange;
 	font-weight: bolder;
+    transform: scale(1.1);
+}
+
+#resume {
+    transition: all .2s ease-in-out;
 }
 
 .main .dark a:hover {
