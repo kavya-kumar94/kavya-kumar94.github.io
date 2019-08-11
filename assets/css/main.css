@@ -2112,10 +2112,7 @@ input, select, textarea {
 				color: inherit;
 			}
 
-			.main .dark a:hover {
-				color: orange;
-			}
-
+		
 			.main.dark .button.style2 {
 				border-color: #ffffff;
 			}
@@ -2477,4 +2474,8 @@ input, select, textarea {
 #resume a:hover {
 	color: orange;
 	font-weight: bolder;
+}
+
+.main .dark a:hover {
+	color: orange;
 }
