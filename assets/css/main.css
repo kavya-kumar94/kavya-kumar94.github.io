@@ -2112,6 +2112,10 @@ input, select, textarea {
 				color: inherit;
 			}
 
+			.main .dark a:hover {
+				color: orange;
+			}
+
 			.main.dark .button.style2 {
 				border-color: #ffffff;
 			}
