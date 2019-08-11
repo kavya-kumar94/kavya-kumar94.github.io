@@ -2396,6 +2396,11 @@ input, select, textarea {
 .contact-links a {
 	color: #39454b;
 	font-family: "Source Sans Pro", "sans-serif";
+	border-bottom: 2px solid transparent;
+}
+
+.contact-links a:hover {
+	border-bottom: 2px solid #39454b;	
 }
 
 .gallery a{
