@@ -2470,7 +2470,7 @@ input, select, textarea {
 	font-size: 22px;
 }
 
-.resume:hover {
+.resume a:hover {
 	color: orange;
 	font-weight: bolder;
 }
