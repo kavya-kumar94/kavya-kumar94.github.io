@@ -2413,6 +2413,10 @@ input, select, textarea {
 	margin: 5px;
 }
 
+.gallery a:hover {
+	color: orange;
+}
+
 .devicon-git-plain-wordmark {
   font-size: 4rem;
 }
