@@ -2379,6 +2379,11 @@ input, select, textarea {
 .top-links a {
 	color: #39454b;
 	margin-left: 10px;
+	border-bottom: 2px solid transparent;
+}
+
+.top-links a:hover {
+	border-bottom: 2px solid #39454b;
 }
 
 .head1 {
