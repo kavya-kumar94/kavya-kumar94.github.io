@@ -1916,11 +1916,11 @@ input, select, textarea {
 
 				#header h1 {
 					text-align: center;
-					position: relative;
-					left: 0;
+					position: absolute;
+					left: 5%;
 					top: 0;
 					height: 2.5em;
-					line-height: 2.5em;
+					/* line-height: 2.5em; */
 				}
 
 					#header h1 a {
