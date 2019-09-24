@@ -2514,6 +2514,7 @@ input, select, textarea {
 	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 	margin-bottom: 3%;
+
 }
 
 #typewriter p:nth-child(3) {
@@ -2527,6 +2528,8 @@ input, select, textarea {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
+
+
 
 @keyframes type {
   0% {
@@ -2617,4 +2620,19 @@ input, select, textarea {
   50% {
     border-color: tranparent;
   }
+}
+
+@media only screen and (max-width: 600px) {
+	#typewriter p:nth-child(2) {
+		font-size: 20px;
+		overflow-wrap: break-word;
+	}
+
+	#typewriter p:nth-child(3) {
+		font-size: 20px;
+	}
+
+	#resume {
+		font-size: 20px;
+	}
 }
