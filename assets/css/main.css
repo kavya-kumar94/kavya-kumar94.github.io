@@ -2489,7 +2489,8 @@ input, select, textarea {
 
 #typewriter p {
   border-right: .15em solid orange;
-  font-family: "Courier";
+  /* font-family: "Courier"; */
+font-family: 'Source Code Pro', monospace;  
   white-space: nowrap;
   overflow: hidden;
   line-height: 1em;
@@ -2624,8 +2625,8 @@ input, select, textarea {
 
 @media only screen and (max-width: 600px) {
 	#typewriter p:nth-child(2) {
-		font-size: 20px;
-		overflow-wrap: break-word;
+		font-size: 15px;
+		width: 24.3em;
 	}
 
 	#typewriter p:nth-child(3) {
