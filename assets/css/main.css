@@ -2497,8 +2497,8 @@ input, select, textarea {
 #typewriter p:nth-child(1) {
 	font-size: 40px;
 	width: 7.9em;
-	-webkit-animation: type 2s steps(40, end);
-	animation: type 2s steps(40, end);
+	-webkit-animation: type 3s steps(40, end);
+	animation: type 3s steps(40, end);
 	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
@@ -2507,10 +2507,10 @@ input, select, textarea {
 	font-size: 40px;
 	width:23.6em;
 	opacity: 0;
-	-webkit-animation: type2 2s steps(40, end);
-	animation: type2 2s steps(40, end);
+	-webkit-animation: type2 3s steps(40, end);
+	animation: type2 3s steps(40, end);
 	-webkit-animation-delay: 2s;
-	animation-delay: 2s;
+	animation-delay: 3s;
 	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 	margin-bottom: 3%;
@@ -2520,10 +2520,10 @@ input, select, textarea {
 	font-size: 30px;
   width: 10em;
   opacity: 0;
-  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  animation-delay: 6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
