@@ -2475,10 +2475,11 @@ input, select, textarea {
 	color: orange;
 	font-weight: bolder;
 	transform: scale(1.1);
-	font-size: 18px;
 }
 
 #resume {
+	font-family: "Courier";
+  	font-size: 40px;
     transition: all .2s ease-in-out;
 }
 
