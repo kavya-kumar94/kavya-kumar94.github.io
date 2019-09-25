@@ -2624,6 +2624,9 @@ font-family: 'Source Code Pro', monospace;
 }
 
 @media only screen and (max-width: 600px) {
+	#typewriter p:nth-child(1) {
+		font-size: 30px;
+	}
 	#typewriter p:nth-child(2) {
 		font-size: 15px;
 		width: 24.3em;
