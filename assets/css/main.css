@@ -2497,7 +2497,7 @@ font-family: 'Source Code Pro', monospace;
 }
 #typewriter p:nth-child(1) {
 	font-size: 40px;
-	width: 9.7em;
+	width: 9.8em;
 	-webkit-animation: type 3s steps(40, end);
 	animation: type 3s steps(40, end);
 	-webkit-animation-fill-mode: forwards;
@@ -2506,7 +2506,7 @@ font-family: 'Source Code Pro', monospace;
 
 #typewriter p:nth-child(2) {
 	font-size: 40px;
-	width:23.6em;
+	width:23.7em;
 	opacity: 0;
 	-webkit-animation: type2 3s steps(40, end);
 	animation: type2 3s steps(40, end);
