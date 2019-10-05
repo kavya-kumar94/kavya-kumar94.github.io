@@ -2511,7 +2511,7 @@ font-family: 'Source Code Pro', monospace;
 	-webkit-animation: type2 3s steps(40, end);
 	animation: type2 3s steps(40, end);
 	-webkit-animation-delay: 2s;
-	animation-delay: 3.7s;
+	animation-delay: 3.5s;
 	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 	margin-bottom: 3%;
