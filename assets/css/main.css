@@ -2670,3 +2670,14 @@ font-family: 'Source Code Pro', monospace;
 	top: 0;
 	left: 0;
 }
+
+.mobile {
+	display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+	.mobile {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
