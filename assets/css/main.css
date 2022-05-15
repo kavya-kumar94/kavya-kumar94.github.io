@@ -503,7 +503,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Raleway', sans-serif;
-		font-weight: 100;
+		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
@@ -668,7 +668,7 @@ input, select, textarea {
 		background: linear-gradient(#faaca8, #ddd6f3);
 		border: 0;
 		border-radius: 3.5em;
-		color: #fff;
+		color: #39454b;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -2163,7 +2163,7 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			color: #39454b;
 		}
 
 			.main.dark a {
@@ -2601,7 +2601,8 @@ input, select, textarea {
 #email1 {
 	display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	margin-left: 10px;
 }
 
 #resume:hover {
@@ -2675,7 +2676,7 @@ input, select, textarea {
 #caption {
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 30px;
 	margin-bottom: 5%;
 	width: 65%;
@@ -2724,6 +2725,9 @@ font-family: 'Source Code Pro', monospace;
   animation-fill-mode: forwards;
 }
 
+#spacer {
+	width: 5px;
+}
 
 
 @keyframes type {
