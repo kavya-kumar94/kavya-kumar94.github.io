@@ -2266,13 +2266,16 @@ input, select, textarea {
 
 			#hello {
 				margin-bottom: 0 !important;
-				font-size: 40px;
+				font-size: 40px !important;
 			}
 
 			#intro-caption {
 				display: block !important;
 				height: auto !important;
-				font-size: 25px;
+			}
+
+			#caption {
+				font-size: 25px !important;
 			}
 
 			#intro-caption img {
@@ -2305,13 +2308,15 @@ input, select, textarea {
 
 			#hello {
 				margin-bottom: 0 !important;
-				font-size: 40px;
+				font-size: 40px !important;
 			}
 
 			#intro-caption {
 				display: block !important;
 				height: auto !important;
-				font-size: 25px;
+			}
+			#caption { 
+				font-size: 25px !important;
 			}
 			#intro-caption img {
 				width: 300px;
