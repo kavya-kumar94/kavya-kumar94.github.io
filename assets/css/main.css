@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;900&display=swap');
 /*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -22,7 +23,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -501,8 +502,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
@@ -551,7 +552,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 300;
 		color: inherit;
 		letter-spacing: -0.0325em;
 	}
@@ -664,10 +665,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background: linear-gradient(#faaca8, #ddd6f3);
 		border: 0;
 		border-radius: 3.5em;
-		color: #ffffff;
+		color: #fff;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -721,7 +722,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: linear-gradient(#ddd6f3, #faaca8);
+			color: #ff5856;
 		}
 
 		input[type="button"]:active,
@@ -729,7 +731,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: #faaca8;
 		}
 
 		input[type="button"].style2,
@@ -1064,6 +1066,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+			margin-top: 2%;
 		}
 
 			ul.actions.special li:first-child {
@@ -1165,11 +1168,12 @@ input, select, textarea {
 
 	ul.icons {
 		cursor: default;
+		display: flex;
 	}
 
 		ul.icons li {
 			display: inline-block;
-			font-family: 'Montserrat', sans-serif;
+			font-family: 'Raleway', sans-serif;
 		}
 
 		ul.icons a {
@@ -1193,9 +1197,9 @@ input, select, textarea {
 			padding: 0 0 0.5em 0; */
 		}
 
-	footer {
+	/* footer {
 		margin-top: 2em;
-	}
+	} */
 
 /* Table */
 
@@ -1845,7 +1849,16 @@ input, select, textarea {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		align-items: center;
 	}
+
+		.collapsible {
+			display: none;
+		}
+
+		#mobile-header {
+			display: none;
+		}
 
 		#header h1 {
 			position: absolute;
@@ -1876,6 +1889,7 @@ input, select, textarea {
 					display: inline-block;
 					margin-left: 0.5em;
 					font-size: 0.9em;
+					cursor: pointer;
 				}
 
 					#header nav ul li a {
@@ -1887,15 +1901,16 @@ input, select, textarea {
 						margin: 0 0.5em 0 0.5em;
 						border-bottom: 2px solid transparent;
 						transition: all 150ms ease-in-out;
-						/* padding: 0 0.5em 0 0.5em; */
 						outline: 0;
 					}
 
+					#header nav ul li:hover {
+						color: #ff5856;
+						font-family: 'Raleway', sans-serif;
+					}
+
 					#header nav ul li a:hover {
-						color: #39454b;
-						border-bottom: 2px solid #39454b;
-						/* font-weight: 600; */
-						font-family: 'Montserrat', sans-serif;
+						border-bottom: 1px solid #ff5856;
 					}
 
 					/* #header nav ul li a::after {
@@ -2026,6 +2041,8 @@ input, select, textarea {
 				margin: 0;
 				position: absolute;
 				bottom: 0;
+				width: 100%;
+				height: 100%;
 			}
 
 			.main.style1.inactive > .content {
@@ -2041,7 +2058,6 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			padding: 3em 0 3em 0;
 			overflow: hidden;
 		}
 
@@ -2059,6 +2075,19 @@ input, select, textarea {
 				margin: 0;
 			}
 
+			.main.style2 > .contenty {
+				-moz-transition: -moz-transform 1s ease;
+				-webkit-transition: -webkit-transform 1s ease;
+				-ms-transition: -ms-transform 1s ease;
+				transition: transform 1s ease;
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+				position: relative;
+				margin: 0;
+			}
+
 			.main.style2.left {
 				-moz-justify-content: -moz-flex-start;
 				-webkit-justify-content: -webkit-flex-start;
@@ -2066,11 +2095,27 @@ input, select, textarea {
 				justify-content: flex-start;
 			}
 
+			.main.style2.lefty {
+				-moz-justify-content: -moz-center;
+				-webkit-justify-content: -webkit-center;
+				-ms-justify-content: -ms-center;
+				justify-content: center;
+				width: 40%;
+			}
+
 			.main.style2.right {
 				-moz-justify-content: -moz-flex-end;
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
+			}
+
+			.main.style2.righty {
+				-moz-justify-content: -moz-center;
+				-webkit-justify-content: -webkit-center;
+				-ms-justify-content: -ms-center;
+				justify-content: center;
+				width: 40%;
 			}
 
 			.main.style2.inactive.left > .content {
@@ -2085,6 +2130,19 @@ input, select, textarea {
 				-webkit-transform: translateX(100%);
 				-ms-transform: translateX(100%);
 				transform: translateX(100%);
+			}
+			.main.style2.inactive.lefty > .contenty {
+				-moz-transform: translateX(-200%);
+				-webkit-transform: translateX(-200%);
+				-ms-transform: translateX(-200%);
+				transform: translateX(-200%);
+			}
+
+			.main.style2.inactive.righty > .contenty {
+				-moz-transform: translateX(200%);
+				-webkit-transform: translateX(200%);
+				-ms-transform: translateX(200%);
+				transform: translateX(200%);
 			}
 
 		.main.style3 {
@@ -2202,6 +2260,36 @@ input, select, textarea {
 				padding: 3em 10px 3em 10px;
 			}
 
+			#one, #two {
+				flex-direction: column;
+			}
+
+			#hello {
+				margin-bottom: 0 !important;
+			}
+
+			#intro-caption {
+				display: block !important;
+				height: auto !important;
+			}
+
+			#intro-caption img {
+				width: 300px;
+				height: 400px;
+			}
+
+			.main.style2.lefty {
+				width: auto;
+			}
+
+			.main.style2.main.style2.righty {
+				width: auto;
+			}
+
+			ul.actions.special {
+				margin-top: 5%;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2209,7 +2297,33 @@ input, select, textarea {
 			.main > .content {
 				max-width: calc(100% - 1.5em);
 			}
+			#one, #two {
+				flex-direction: column;
+			}
 
+			#hello {
+				margin-bottom: 0 !important;
+			}
+
+			#intro-caption {
+				display: block !important;
+				height: auto !important;
+			}
+			#intro-caption img {
+				width: 300px;
+				height: 400px;
+			}
+			.main.style2.lefty {
+				width: auto;
+			}
+
+			.main.style2.main.style2.righty {
+				width: auto;
+			}
+
+			ul.actions.special {
+				margin-top: 5%;
+			}
 		}
 
 /* Footer */
@@ -2231,8 +2345,8 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		background: linear-gradient(#ddd6f3, #faaca8);
+		color: #39454b;
 		overflow: hidden;
 	}
 
@@ -2245,7 +2359,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #b9babb;
+				color: #ff5856;
 			}
 
 		#footer ul.menu {
@@ -2299,25 +2413,24 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../css/images/background.jpg");
+		background: linear-gradient(#ddd6f3, #faaca8);
 		/* background: url("images/overlay.png"), url("../css/images/background.jpg"); */
-		background-size: cover;
+		/* background-size: contain; */
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat;
 		background-color: black;
-		/* background-color: rgb(31, 29, 29); */
 	}
 	
 	/* One */
 	
 	#one {
-		/* background: url("images/overlay.png"), url("../css/images/one.jpg"); */
+		background: linear-gradient(#ddd6f3, #faaca8);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		/* background-color: rgb(31, 29, 29); */
-		background-image: linear-gradient(0deg,#222c3c, black);
+		justify-content: space-between;
+		display: flex;
 	}
 	
 	/* Two */
@@ -2327,7 +2440,9 @@ input, select, textarea {
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-image: linear-gradient(0deg,#989da6, #222c3c);
+		background: linear-gradient(#ddd6f3, #faaca8);
+		justify-content: space-between;
+		display: flex;
 	}
 
 /* Contact */
@@ -2407,12 +2522,13 @@ input, select, textarea {
 
 .contact-links a {
 	color: #39454b;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	border-bottom: 2px solid transparent;
 }
 
 .contact-links a:hover {
-	border-bottom: 2px solid #39454b;	
+	color: #ff5856;
+	border-bottom: 1px solid #ff5856;	
 }
 
 .gallery a{
@@ -2421,7 +2537,7 @@ input, select, textarea {
 }
 
 .gallery a:hover {
-	color: orange;
+	color: #ff5856;
 }
 
 .devicon-git-plain-wordmark {
@@ -2473,24 +2589,87 @@ input, select, textarea {
 	margin: 4px;
 }
 
-.email1 {
-	font-size: 22px;
+#email1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
 }
 
 #resume:hover {
-	color: orange;
+	color: #ff5856;
 	font-weight: bolder;
 	transform: scale(1.1);
 }
 
 #resume {
-	font-family: "Courier";
-  	font-size: 30px;
+	font-family: 'Raleway', sans-serif;;
+  	font-size: 20px;
     transition: all .2s ease-in-out;
+}
+
+#socials {
+	text-align: end;
+}
+
+#socials a {
+	cursor: pointer;
+	margin: 10px;
+}
+
+#socials a:hover {
+	color: #ff5856;
+}
+
+#socials2 {
+	display: flex;
+	justify-content: center;
+}
+
+#socials2 a {
+	cursor: pointer;
+	margin: 10px;
+}
+
+#rightside {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .main .dark a:hover {
 	color: orange;
+}
+
+#intro-caption {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 85%;
+}
+
+#intro-caption p {
+  /* font-family: 'Source Code Pro', monospace;   */
+  overflow: hidden;
+  line-height: normal;
+  text-align: end;
+}
+
+#hello {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 64px;
+	color: #ff5856;
+	margin-bottom: 10%;
+}
+
+#caption {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 30px;
+	margin-bottom: 5%;
+	width: 65%;
 }
 
 #typewriter p {
