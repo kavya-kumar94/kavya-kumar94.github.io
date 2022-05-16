@@ -2299,6 +2299,18 @@ input, select, textarea {
 			ul.actions.special {
 				margin-top: 5%;
 			}
+			#socials {
+				display: none;
+			}
+
+			#socials3 {
+				display: inline !important;
+			}
+
+			#socials3 a {
+				margin: 5px;
+				color: #39454b;
+			}
 
 		}
 
@@ -2312,7 +2324,7 @@ input, select, textarea {
 				/* padding: 6em 15px 6em 15px; */
 				padding: 1em 15px 1em 15px;
 			}
-			
+
 			#one, #two {
 				flex-direction: column;
 			}
@@ -2346,6 +2358,19 @@ input, select, textarea {
 
 			ul.actions.special {
 				margin-top: 5%;
+			}
+
+			#socials {
+				display: none;
+			}
+
+			#socials3 {
+				display: inline !important;
+			}
+
+			#socials3 a {
+				margin: 5px;
+				color: #39454b;
 			}
 		}
 
@@ -2463,7 +2488,7 @@ input, select, textarea {
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background: linear-gradient(#ddd6f3, #faaca8);
+		background: linear-gradient(#faaca8, #ddd6f3);
 		justify-content: space-between;
 		display: flex;
 	}
@@ -2633,6 +2658,14 @@ input, select, textarea {
 
 #socials {
 	text-align: end;
+}
+
+#socials3 {
+	display: none;
+}
+
+#socials3 a:hover {
+	color: tomato;
 }
 
 #socials a {
