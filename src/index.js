@@ -20,14 +20,14 @@ root.render(
 // import App from './App'
 
 
-window.addEventListener('resize', () =>
+window.addEventListener('load', () =>
   render(<ParticleContainer />, document.querySelector('canvas'), {
     events,
     linear: true,
     camera: { fov: 25, position: [0, 0, 6] },
     // https://barradeau.com/blog/?p=621
     // This examples needs WebGL1 (?)
-    gl: new THREE.WebGL1Renderer({
+    gl: new THREE.WebGLRenderer({
       canvas: document.querySelector('canvas'),
       antialias: true,
       alpha: true
@@ -35,7 +35,7 @@ window.addEventListener('resize', () =>
   })
 )
 
-window.dispatchEvent(new Event('resize'))
+window.dispatchEvent(new Event('load'))
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
