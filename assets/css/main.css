@@ -1910,7 +1910,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a:hover {
-						border-bottom: 1px solid #ff5856;
+						/* border-bottom: 1px solid #ff5856; */
 					}
 
 					/* #header nav ul li a::after {
@@ -2597,7 +2597,7 @@ input, select, textarea {
 
 .contact-links a:hover {
 	color: #ff5856;
-	border-bottom: 1px solid #ff5856;	
+	/* border-bottom: 1px solid #ff5856;	 */
 }
 
 .gallery a{
