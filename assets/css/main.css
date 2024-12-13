@@ -2222,6 +2222,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			.main.dark .button.style2.down {
+				display: none;
+			}
+
 			.main.fullscreen {
 				height: auto !important;
 			}
@@ -2310,6 +2314,23 @@ input, select, textarea {
 			#socials3 a {
 				margin: 5px;
 				color: #39454b;
+			}
+
+			.main.style1 > .content {
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+				opacity: 1.0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+				overflow-y: hidden;
+				align-content: center;
 			}
 
 		}
@@ -2594,6 +2615,12 @@ input, select, textarea {
 .devicon-javascript-plain {
   font-size: 3rem;
 }
+.devicon-graphql-plain {
+  font-size: 3rem;
+}
+.devicon-figma-plain {
+   font-size: 3rem;
+}
 .devicon-ruby-plain-wordmark {
   font-size: 4rem;
 }
@@ -2700,8 +2727,9 @@ input, select, textarea {
 #intro-caption {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	height: 85%;
+	align-items: center;
 }
 
 #intro-caption p {
